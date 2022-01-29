@@ -1,9 +1,11 @@
 require('dotenv').config()
 
 const axios = require('axios')
-const skills = require('../src/mappings/skills.json')
-const traits = require('../src/mappings/traits.json')
-const items = require('../src/mappings/items.json')
+const skills_en = require('../src/mappings/skills_en.json')
+const skills_zh = require('../src/mappings/skills_zh.json')
+
+const traits_en = require('../src/mappings/traits_en.json')
+const items_en = require('../src/mappings/items_en.json')
 
 const namespaces = {
   skills: `${process.env.CF_NAMESPACE_SKILLS}`,
@@ -39,12 +41,20 @@ function upload(type, getKey, getValue, values) {
     ),
   }).then((res) => console.log(res))
 }
-console.log(skills.length)
+console.log(
+  skills_en.map((skill) => ({
+    en: skill,
+    zh: skills_zh.find((skill_zh) => skill_zh.id === skill.id),
+  })),
+)
 /*
 upload(
   'skills',
   (skill) => skill.id,
   (skill) => skill,
-  skills,
+  skills_en.map((skill) => ({
+    en: skill,
+    zh: skills_zh.find((skill_zh) => skill_zh.id === skill.id),
+  })),
 )
 */
