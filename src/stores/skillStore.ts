@@ -10,17 +10,16 @@ export default class SkillsStore {
           .toLowerCase()
           .trim()
 
-  async all(): Promise<GW2ApiSkill[]> {
-    return <GW2ApiSkill[]>skills
-  }
-
   async find(ids: number[]): Promise<GW2ApiSkill[]> {
-    return (<GW2ApiSkill[]>skills).filter((skill: GW2ApiSkill) =>
-      ids.includes(skill.id),
-    )
+    // get a single skill from KV storage
+    const getSkill = async (id: number): Promise<GW2ApiSkill> =>
+      JSON.parse((await SKILLS.get(`${id}`)) || '')
+
+    return Promise.all(ids.map((id) => getSkill(id)))
   }
 
   async findByName(names: string[]): Promise<GW2ApiSkill[]> {
+    //TODO implement byName
     return (<GW2ApiSkill[]>skills).filter((skill: GW2ApiSkill) =>
       names.includes(this.normalize(skill.name)),
     )

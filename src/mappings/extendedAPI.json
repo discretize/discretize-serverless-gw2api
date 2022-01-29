@@ -1,0 +1,1004 @@
+{
+  "traits": {
+    "missing": [],
+    "augments": {
+      "2062": {
+        "description": "Equipping or stowing a Virtue grants you quickness."
+      },
+      "2063": {
+        "description": "Your Mantra skills slow nearby foes. This effect may only occur once per interval. Mantras gain reduced charge-recovery time."
+      },
+      "2071": {
+        "description": "Using a Beast ability grants you offensive boons."
+      },
+      "2072": {
+        "description": "Entering beastmode grants boons and removes movement-impairing conditions."
+      },
+      "2075": {
+        "description": "Axe skills gain a chance to inflict bleeding. Symbol of Vengeance now dazes on its initial strike."
+      },
+      "2076": {
+        "description": "When you grant aegis or stability, grant quickness."
+      },
+      "2079": {
+        "description": "Fury increases the duration of bleeds you inflict. Gaining fury inspires you with Kalla's Fervor."
+      },
+      "2085": {
+        "description": "Gaining quickness increases the duration of other boons affecting you."
+      },
+      "2086": {
+        "description": "Your Virtues gain additional pages."
+      },
+      "2092": {
+        "description": "Your short bow skills now pierce. Bleeding you inflict deals more damage."
+      },
+      "2094": {
+        "description": "Gaining Kalla's Fervor grants you might. Citadel Bombardment pulls more missiles into Tyria for every stack of Kalla's Fervor affecting you."
+      },
+      "2100": {
+        "description": "Kalla's Fervor you inspire lasts longer and is more potent. Heroic Command grants more might per stack of Kalla's Fervor."
+      },
+      "2101": {
+        "description": "Grant allies quickness when you use your heal skill."
+      },
+      "2105": {
+        "description": "Inflict burning and slowness on foes you disable, immobilize, or slow."
+      },
+      "2108": {
+        "description": "Using Legendary Renegade abilities grants protection to allies near the summoned warband member."
+      },
+      "2116": {
+        "description": "Tome skills gain bonuses from scribbling in the margins by ancient bards."
+      },
+      "2119": {
+        "description": "Conditions inflict less damage to you while you have protection."
+      },
+      "2120": {
+        "description": "Evading an attack inspires you with Kalla's Fervor and grants boons to nearby allies."
+      },
+      "2127": {
+        "description": "Disabling a foe increases your damage and condition damage for a short duration."
+      },
+      "2134": {
+        "description": "Entering beastmode grants you the boons affecting your pet."
+      },
+      "2142": {
+        "description": "While at full endurance, increase your chance to critically strike. Gain vigor when you gain fury."
+      },
+      "2143": {
+        "description": "Deal increased damage to foes at a lower health percentage than you. Conditions you apply to foes at a lower health percentage than you last longer."
+      },
+      "2148": {
+        "description": "Gain increased attributes while affected by quickness."
+      },
+      "2154": {
+        "description": "Gain fury when you critically strike a foe below the health threshold."
+      },
+      "2155": {
+        "description": "While in beastmode, if you would be downed you instead fall out of beastmode and recover health."
+      },
+      "2156": {
+        "description": "You deal increased strike damage while you have fury."
+      },
+      "2159": {
+        "description": "Tome skills gain reduced recharge. Retain Virtues passives while they are on cooldown."
+      },
+      "2161": {
+        "description": "When you apply poison to a foe, steal some health from them."
+      },
+      "2166": {
+        "description": "Disabling a foe cripples your enemy, which leaves them vulnerable and inspires you with Kalla's Fervor."
+      },
+      "2179": {
+        "description": "Granting quickness to an ally also grants Ashes of the Just."
+      },
+      "2182": {
+        "description": "Kalla's Fervor reduces the damage you receive from conditions. Orders from Above lasts longer and affects more targets and a larger area."
+      }
+    }
+  },
+  "skills": {
+    "missing": [
+      {
+        "name": "Chapter 3: Azure Sun",
+        "professions": ["Guardian"],
+        "description": "Inspired by countless poems describing the comforting powers of the water-reflected sun, grant boons to allies.",
+        "icon": "https://wiki.guildwars2.com/images/b/bf/Chapter_3-_Azure_Sun.png",
+        "categories": ["Tome"],
+        "facts": [
+          {
+            "text": "Recharge",
+            "type": "Recharge",
+            "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+            "value": 8
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/58E92EBAF0DB4DA7C4AC04D9B22BCA5ECF0100DE/102843.png",
+            "duration": 5,
+            "status": "Vigor",
+            "description": "Endurance regeneration increased by 50%; stacks duration.",
+            "apply_count": 1
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/F69996772B9E18FD18AD0AABAB25D7E3FC42F261/102835.png",
+            "duration": 6,
+            "status": "Regeneration",
+            "description": "Gain health every second; stacks duration.",
+            "apply_count": 1
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/20CFC14967E67F7A3FD4A4B8722B4CF5B8565E11/102836.png",
+            "duration": 5,
+            "status": "Swiftness",
+            "description": "Movement speed increased by 33%; stacks duration.",
+            "apply_count": 1
+          },
+          {
+            "text": "Number of Targets",
+            "type": "Number",
+            "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+            "value": 5
+          },
+          {
+            "text": "Radius",
+            "type": "Distance",
+            "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+            "distance": 240
+          },
+          {
+            "text": "Range",
+            "type": "Range",
+            "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+            "value": 900
+          }
+        ]
+      },
+      {
+        "name": "Chapter 2: Daring Challenge",
+        "professions": ["Guardian"],
+        "description": "As the tales recount of Turai, taunt your enemies by issuing an insightfully inciting challenge.",
+        "icon": "https://wiki.guildwars2.com/images/7/79/Chapter_2-_Daring_Challenge.png",
+        "categories": ["Tome"],
+        "facts": [
+          {
+            "text": "Recharge",
+            "type": "Recharge",
+            "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+            "value": 4
+          },
+          {
+            "text": "Damage",
+            "type": "Damage",
+            "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+            "hit_count": 1,
+            "dmg_multiplier": 1.4
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/02EED459AD65FAF7DF32A260E479C625070841B9/1228472.png",
+            "duration": 1,
+            "status": "Taunt",
+            "description": "Involuntarily attack foes.",
+            "apply_count": 1
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/D104A6B9344A2E2096424A3C300E46BC2926E4D7/2440718.png",
+            "duration": 3,
+            "status": "Resolution",
+            "description": "Incoming condition damage decreased by 33%; stacks duration.",
+            "apply_count": 1
+          },
+          {
+            "text": "Range",
+            "type": "Range",
+            "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+            "value": 240
+          }
+        ]
+      },
+      {
+        "name": "Chapter 1: Desert Bloom",
+        "professions": ["Guardian"],
+        "description": "Tales of desert blooms create a wave of healing for your allies.",
+        "icon": "https://wiki.guildwars2.com/images/f/fd/Chapter_1-_Desert_Bloom.png",
+        "categories": ["Tome"],
+        "facts": [
+          {
+            "text": "Healing",
+            "type": "AttributeAdjust",
+            "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+            "value": 602,
+            "target": "Healing"
+          },
+          {
+            "text": "Number of Targets",
+            "type": "Number",
+            "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+            "value": 5
+          },
+          {
+            "text": "Range",
+            "type": "Range",
+            "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+            "value": 900
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3: Heated Rebuke",
+        "professions": ["Guardian"],
+        "description": "Call forth a heated vortex to collapse your enemies together.",
+        "icon": "https://wiki.guildwars2.com/images/e/e7/Chapter_3-_Heated_Rebuke.png",
+        "categories": ["Tome"],
+        "facts": [
+          {
+            "text": "Recharge",
+            "type": "Recharge",
+            "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+            "value": 8
+          },
+          {
+            "text": "Damage",
+            "type": "Damage",
+            "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+            "hit_count": 1,
+            "dmg_multiplier": 0.45
+          },
+          {
+            "text": "Pull",
+            "type": "Number",
+            "icon": "https://render.guildwars2.com/file/D5F6EBC4630F0E10F3DDB7A6DBB63592CD4B00BC/2440717.png",
+            "value": 240
+          },
+          {
+            "text": "Number of Targets",
+            "type": "Number",
+            "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+            "value": 5
+          },
+          {
+            "text": "Radius",
+            "type": "Distance",
+            "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+            "distance": 240
+          },
+          {
+            "text": "Range",
+            "type": "Range",
+            "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+            "value": 900
+          }
+        ]
+      },
+      {
+        "name": "Chapter 2: Igniting Burst",
+        "professions": ["Guardian"],
+        "description": "Ignite the air around you in an expanding burst.",
+        "icon": "https://wiki.guildwars2.com/images/5/53/Chapter_2-_Igniting_Burst.png",
+        "categories": ["Tome"],
+        "facts": [
+          {
+            "text": "Recharge",
+            "type": "Recharge",
+            "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+            "value": 4
+          },
+          {
+            "text": "Damage",
+            "type": "Damage",
+            "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+            "hit_count": 1,
+            "dmg_multiplier": 0.55
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/B47BF5803FED2718D7474EAF9617629AD068EE10/102849.png",
+            "duration": 10,
+            "status": "Burning",
+            "description": "Deals damage every second; stacks intensity.",
+            "apply_count": 1
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/6CB0E64AF9AA292E332A38C1770CE577E2CDE0E8/102853.png",
+            "duration": 4,
+            "status": "Weakness",
+            "description": "-50% Endurance Regeneration, 50% Fumble (Unrestricted)",
+            "apply_count": 1
+          },
+          {
+            "text": "Number of Targets",
+            "type": "Number",
+            "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+            "value": 5
+          },
+          {
+            "text": "Radius",
+            "type": "Distance",
+            "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+            "distance": 240
+          }
+        ]
+      },
+      {
+        "name": "Chapter 2: Radiant Recovery",
+        "professions": ["Guardian"],
+        "description": "Release magic from pages detailing the rebuilding of Vabbi, cleansing conditions on nearby allies. Allies are healed for each condition removed.",
+        "icon": "https://wiki.guildwars2.com/images/9/95/Chapter_2-_Radiant_Recovery.png",
+        "categories": ["Tome"],
+        "facts": [
+          {
+            "text": "Recharge",
+            "type": "Recharge",
+            "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+            "value": 4
+          },
+          {
+            "text": "Heal per condition",
+            "type": "AttributeAdjust",
+            "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+            "value": 457,
+            "target": "Healing"
+          },
+          {
+            "text": "Number of Targets",
+            "type": "Number",
+            "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+            "value": 5
+          },
+          {
+            "text": "Radius",
+            "type": "Distance",
+            "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+            "distance": 240
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4: Scorched Aftermath",
+        "professions": ["Guardian"],
+        "description": "Detail the suffering in fire and blood inflicted during Vabbi's occupation.",
+        "icon": "https://wiki.guildwars2.com/images/c/c9/Chapter_4-_Scorched_Aftermath.png",
+        "categories": ["Tome"],
+        "facts": [
+          {
+            "text": "Recharge",
+            "type": "Recharge",
+            "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+            "value": 10
+          },
+          {
+            "text": "Damage",
+            "type": "Damage",
+            "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+            "hit_count": 5,
+            "dmg_multiplier": 3.2
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+            "duration": 2,
+            "status": "Bleeding",
+            "description": "Deals damage every second; stacks intensity.",
+            "apply_count": 1
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/B47BF5803FED2718D7474EAF9617629AD068EE10/102849.png",
+            "duration": 2,
+            "status": "Burning",
+            "description": "Deals damage every second; stacks intensity.",
+            "apply_count": 1
+          },
+
+          {
+            "text": "Number of Targets",
+            "type": "Number",
+            "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+            "value": 5
+          },
+          {
+            "text": "Pulses",
+            "type": "Number",
+            "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+            "value": 5
+          },
+          {
+            "text": "Duration",
+            "type": "Time",
+            "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+            "duration": 4
+          },
+          {
+            "text": "Interval",
+            "type": "Time",
+            "icon": "https://render.guildwars2.com/file/B75E91EB22E0DFCC1D08030204055946506D56F6/1770206.png",
+            "duration": 1
+          },
+          {
+            "text": "Radius",
+            "type": "Distance",
+            "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+            "distance": 360
+          },
+          {
+            "text": "Combo Field",
+            "type": "ComboField",
+            "icon": "https://render.guildwars2.com/file/59E0DB6A699810641C959926ADFEF73E08CC255B/156655.png",
+            "field_type": "Fire"
+          }
+        ]
+      },
+      {
+        "name": "Chapter 1: Searing Spell",
+        "professions": ["Guardian"],
+        "description": "Fueled by tales of the desolation in Istan, incite a great swelling of heat before you.",
+        "icon": "https://wiki.guildwars2.com/images/d/d3/Chapter_1-_Searing_Spell.png",
+        "categories": ["Tome"],
+        "facts": [
+          {
+            "text": "Damage",
+            "type": "Damage",
+            "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+            "hit_count": 1,
+            "dmg_multiplier": 0.95
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/B47BF5803FED2718D7474EAF9617629AD068EE10/102849.png",
+            "duration": 2.5,
+            "status": "Burning",
+            "description": "Deals damage every second; stacks intensity.",
+            "apply_count": 1
+          },
+          {
+            "text": "Number of Targets",
+            "type": "Number",
+            "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+            "value": 5
+          },
+          {
+            "text": "Radius",
+            "type": "Distance",
+            "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+            "distance": 600
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4: Shining River",
+        "professions": ["Guardian"],
+        "description": "Release a torrent of pages describing the water cycle of the Elon River. Heal allies and grant them swiftness.",
+        "icon": "https://wiki.guildwars2.com/images/1/16/Chapter_4-_Shining_River.png",
+        "categories": ["Tome"],
+        "facts": [
+          {
+            "text": "Recharge",
+            "type": "Recharge",
+            "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+            "value": 10
+          },
+          {
+            "text": "Healing",
+            "type": "AttributeAdjust",
+            "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+            "value": 326,
+            "target": "Healing"
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/20CFC14967E67F7A3FD4A4B8722B4CF5B8565E11/102836.png",
+            "duration": 4,
+            "status": "Swiftness",
+            "description": "Movement speed increased by 33%; stacks duration.",
+            "apply_count": 1
+          },
+          {
+            "text": "Pulses",
+            "type": "Number",
+            "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+            "value": 5
+          },
+          {
+            "text": "Radius",
+            "type": "Distance",
+            "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+            "distance": 360
+          },
+          {
+            "text": "Combo Field",
+            "type": "ComboField",
+            "icon": "https://render.guildwars2.com/file/59E0DB6A699810641C959926ADFEF73E08CC255B/156655.png",
+            "field_type": "Water"
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4: Stalwart Stand",
+        "professions": ["Guardian"],
+        "description": "Recount the stand of Elonian loyalists against Palawa Joko, granting resistance to your allies.",
+        "icon": "https://wiki.guildwars2.com/images/e/e7/Chapter_3-_Heated_Rebuke.png",
+        "categories": ["Tome"],
+        "facts": [
+          {
+            "text": "Recharge",
+            "type": "Recharge",
+            "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+            "value": 10
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/50BAC1B8E10CFAB9E749A5D910D4A9DCF29EBB7C/961398.png",
+            "duration": 1,
+            "status": "Resistance",
+            "description": "Nondamaging conditions currently on you are ineffective; stacks duration.",
+            "apply_count": 1
+          },
+          {
+            "text": "Pulses",
+            "type": "Number",
+            "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+            "value": 4
+          },
+          {
+            "text": "Interval",
+            "type": "Time",
+            "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+            "duration": 1
+          },
+          {
+            "text": "Radius",
+            "type": "Distance",
+            "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+            "distance": 360
+          },
+          {
+            "text": "Combo Field",
+            "type": "ComboField",
+            "icon": "https://render.guildwars2.com/file/59E0DB6A699810641C959926ADFEF73E08CC255B/156655.png",
+            "field_type": "Water"
+          },
+          {
+            "text": "StunBreak",
+            "type": "StunBreak",
+            "icon": "https://render.guildwars2.com/file/DCF0719729165FD8910E034CA4E0780F90582D15/156654.png",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "Chapter 1: Unflinching Charge",
+        "professions": ["Guardian"],
+        "description": "Roused by tales of mythical Sunspear charges, ground and motivate allies before you.",
+        "icon": "https://wiki.guildwars2.com/images/3/30/Chapter_1-_Unflinching_Charge.png",
+        "categories": ["Tome"],
+        "facts": [
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/3D3A1C2D6D791C05179AB871902D28782C65C244/415959.png",
+            "duration": 4,
+            "status": "Stability",
+            "description": "Cannot be knocked down, pushed back, pulled, launched, stunned, dazed, floated, sunk, feared, or taunted.",
+            "apply_count": 1
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/20CFC14967E67F7A3FD4A4B8722B4CF5B8565E11/102836.png",
+            "duration": 4,
+            "status": "Swiftness",
+            "description": "Movement speed increased by 33%; stacks duration.",
+            "apply_count": 1
+          },
+          {
+            "text": "Number of Targets",
+            "type": "Number",
+            "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+            "value": 5
+          },
+          {
+            "text": "Range",
+            "type": "Range",
+            "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+            "value": 600
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3: Valiant Bulwark",
+        "professions": ["Guardian"],
+        "description": "Manifest the shimmering purity of the desert sun, reflecting enemy missiles.",
+        "icon": "https://wiki.guildwars2.com/images/7/73/Chapter_3-_Valiant_Bulwark.png",
+        "categories": ["Tome"],
+        "facts": [
+          {
+            "text": "Recharge",
+            "type": "Recharge",
+            "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+            "value": 8
+          },
+          {
+            "text": "Duration",
+            "type": "Time",
+            "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+            "duration": 5
+          },
+          {
+            "text": "Radius",
+            "type": "Distance",
+            "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+            "distance": 240
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/B47BF5803FED2718D7474EAF9617629AD068EE10/102849.png",
+            "duration": 2.5,
+            "status": "Burning",
+            "description": "Deals damage every second; stacks intensity.",
+            "apply_count": 1
+          },
+          {
+            "text": "Reflects Missiles",
+            "type": "NoData",
+            "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png"
+          },
+          {
+            "text": "Range",
+            "type": "Range",
+            "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+            "value": 900
+          }
+        ]
+      },
+      {
+        "name": "Epilogue: Ashes of the Just",
+        "professions": ["Guardian"],
+        "description": "Recall the memory of fallen heroes, granting allies the searing blades of justice.",
+        "icon": "https://render.guildwars2.com/file/EC05420EAE5445A7069409B54D4502ED36BDF10A/1770477.png",
+        "categories": ["Tome"],
+        "facts": [
+          {
+            "text": "Recharge",
+            "type": "Recharge",
+            "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+            "value": 12
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/EC05420EAE5445A7069409B54D4502ED36BDF10A/1770477.png",
+            "duration": 10,
+            "status": "Ashes of the Just",
+            "description": "Your next strike burns with justice.",
+            "apply_count": 3
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/B47BF5803FED2718D7474EAF9617629AD068EE10/102849.png",
+            "duration": 3,
+            "status": "Burning",
+            "description": "Deals damage every second; stacks intensity.",
+            "apply_count": 1
+          },
+          {
+            "text": "Number of Allied Targets",
+            "type": "Number",
+            "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+            "value": 5
+          },
+          {
+            "text": "Interval",
+            "type": "Time",
+            "icon": "https://render.guildwars2.com/file/B75E91EB22E0DFCC1D08030204055946506D56F6/1770206.png",
+            "duration": 1
+          },
+          {
+            "text": "Radius",
+            "type": "Distance",
+            "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+            "distance": 600
+          }
+        ]
+      },
+      {
+        "name": "Epilogue: Eternal Oasis",
+        "professions": ["Guardian"],
+        "description": "Purify your allies with the waters of Amnoon and increase the healing they receive.",
+        "icon": "https://wiki.guildwars2.com/images/5/5f/Epilogue-_Eternal_Oasis.png",
+        "categories": ["Tome"],
+        "facts": [
+          {
+            "text": "Recharge",
+            "type": "Recharge",
+            "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+            "value": 12
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://wiki.guildwars2.com/images/5/5f/Epilogue-_Eternal_Oasis.png",
+            "duration": 8,
+            "status": "Eternal Oasis",
+            "description": "33% Heal Effectiveness"
+          },
+          {
+            "text": "Conditions Converted to Boons",
+            "type": "Number",
+            "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+            "value": 5
+          },
+          {
+            "text": "Number of Allied Targets",
+            "type": "Number",
+            "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+            "value": 5
+          },
+          {
+            "text": "Radius",
+            "type": "Distance",
+            "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+            "distance": 600
+          }
+        ]
+      },
+      {
+        "name": "Epilogue: Unbroken Lines",
+        "professions": ["Guardian"],
+        "description": "Recalling the memory of heroes past, enchant nearby allies with formidable defenses.",
+        "icon": "https://wiki.guildwars2.com/images/d/d8/Epilogue-_Unbroken_Lines.png",
+        "categories": ["Tome"],
+        "facts": [
+          {
+            "text": "Recharge",
+            "type": "Recharge",
+            "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+            "value": 12
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/DFB4D1B50AE4D6A275B349E15B179261EE3EB0AF/102854.png",
+            "duration": 4,
+            "status": "Aegis",
+            "description": "Block the next incoming attack; stacks duration.",
+            "apply_count": 1
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/CD77D1FAB7B270223538A8F8ECDA1CFB044D65F4/102834.png",
+            "duration": 5,
+            "status": "Protection",
+            "description": "Incoming strike damage decreased by 33%; stacks duration.",
+            "apply_count": 1
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://wiki.guildwars2.com/images/d/d8/Epilogue-_Unbroken_Lines.png",
+            "duration": 6,
+            "status": "Unbroken Lines",
+            "description": "300 Toughness."
+          },
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/3D3A1C2D6D791C05179AB871902D28782C65C244/415959.png",
+            "duration": 5,
+            "status": "Stability",
+            "description": "Cannot be knocked down, pushed back, pulled, launched, stunned, dazed, floated, sunk, feared, or taunted.",
+            "apply_count": 1
+          },
+          {
+            "text": "Radius",
+            "type": "Distance",
+            "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+            "distance": 600
+          }
+        ]
+      }
+    ],
+    "augments": {}
+  },
+  "items": {
+    "missing": [],
+    "augments": {},
+    "override": [
+      {
+        "name": "Cilantro Lime Sous-Vide Steak",
+        "description": "Gourmet Feast: Double-click to serve Cilantro Lime Sous-Vide Steaks to anyone nearby. Feast stays active for 5 minutes.",
+        "type": "Consumable",
+        "level": 80,
+        "rarity": "Ascended",
+        "vendor_value": 165,
+        "game_types": ["Wvw", "Dungeon", "Pve"],
+        "flags": ["AccountBound", "AccountBindOnUse"],
+        "restrictions": [],
+        "id": 91805,
+        "chat_link": "[&AgGdZgEA]",
+        "icon": "https://render.guildwars2.com/file/D2C00407A3FFE06251BDE9DC13525FE167ABA3E6/2191069.png",
+        "details": {
+          "type": "Food",
+          "duration_ms": 3600000,
+          "apply_count": 1,
+          "name": "Nourishment",
+          "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+          "description": "66% Chance to Steal Life on Critical Hit\n+100 Power\n+70 Ferocity\n+10% Karma\n+5% All Experience Gained\n+20% Magic Find\n+20% Gold Find\n+10% WXP Gained"
+        }
+      },
+      {
+        "name": "Cilantro and Cured Meat Flatbread",
+        "description": "Gourmet Feast: Double-click to serve Cilantro and Cured Meat Flatbreads to anyone nearby. Feast stays active for 5 minutes.",
+        "type": "Consumable",
+        "level": 80,
+        "rarity": "Ascended",
+        "vendor_value": 165,
+        "game_types": ["Wvw", "Dungeon", "Pve"],
+        "flags": ["AccountBound", "AccountBindOnUse"],
+        "restrictions": [],
+        "id": 91878,
+        "chat_link": "[&AgHmZgEA]",
+        "icon": "https://render.guildwars2.com/file/13906DE02D374DBB6A013C5EF76F26FBAFD5A39A/2191050.png",
+        "details": {
+          "type": "Food",
+          "duration_ms": 3600000,
+          "apply_count": 1,
+          "name": "Nourishment",
+          "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+          "description": "66% Chance to Steal Life on Critical Hit\n+100 Condition Damage\n+70 Expertise\n+10% Karma\n+5% All Experience Gained\n+20% Magic Find\n+20% Gold Find\n+10% WXP Gained"
+        }
+      },
+      {
+        "name": "Salsa-Topped Veggie Flatbread",
+        "description": "Gourmet Feast: Double-click to serve Salsa-Topped Veggie Flatbreads to anyone nearby. Feast stays active for 5 minutes.",
+        "type": "Consumable",
+        "level": 80,
+        "rarity": "Ascended",
+        "vendor_value": 165,
+        "game_types": ["Wvw", "Dungeon", "Pve"],
+        "flags": ["AccountBound", "AccountBindOnUse"],
+        "restrictions": [],
+        "id": 91876,
+        "chat_link": "[&AgHkZgEA]",
+        "icon": "https://render.guildwars2.com/file/161BD739DCBE0BA737081A079017D6F660BE5642/2191029.png",
+        "details": {
+          "type": "Food",
+          "duration_ms": 3600000,
+          "apply_count": 1,
+          "name": "Nourishment",
+          "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+          "description": "66% Chance to Steal Life on Critical Hit\n+100 Expertise\n+70 Condition Damage\n+10% Karma\n+5% All Experience Gained\n+20% Magic Find\n+20% Gold Find\n+10% WXP Gained"
+        }
+      },
+      {
+        "name": "Salsa Eggs Benedict",
+        "description": "Gourmet Feast: Double-click to serve Salsa Eggs Benedicts to anyone nearby. Feast stays active for 5 minutes.",
+        "type": "Consumable",
+        "level": 80,
+        "rarity": "Ascended",
+        "vendor_value": 165,
+        "game_types": ["Wvw", "Dungeon", "Pve"],
+        "flags": ["AccountBound", "AccountBindOnUse"],
+        "restrictions": [],
+        "id": 91847,
+        "chat_link": "[&AgHHZgEA]",
+        "icon": "https://render.guildwars2.com/file/0C1654600B0E40F9EEC909B8950CD6140FE17FCD/2191055.png",
+        "details": {
+          "type": "Food",
+          "duration_ms": 3600000,
+          "apply_count": 1,
+          "name": "Nourishment",
+          "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+          "description": "66% Chance to Steal Life on Critical Hit\n+100 Concentration\n+70 Expertise\n+10% Karma\n+5% All Experience Gained\n+20% Magic Find\n+20% Gold Find\n+10% WXP Gained"
+        }
+      },
+      {
+        "name": "Bowl of Fruit Salad with Mint Garnish",
+        "description": "Gourmet Feast: Double-click to serve Bowls of Fruit Salad with Mint Garnish to anyone nearby. Feast stays active for 5 minutes.",
+        "type": "Consumable",
+        "level": 80,
+        "rarity": "Ascended",
+        "vendor_value": 165,
+        "game_types": ["Wvw", "Dungeon", "Pve"],
+        "flags": ["AccountBound", "AccountBindOnUse"],
+        "restrictions": [],
+        "id": 91690,
+        "chat_link": "[&AgEqZgEA]",
+        "icon": "https://render.guildwars2.com/file/1D44545301F3BB1C046898EA08D5906EB369DD0A/2191059.png",
+        "details": {
+          "type": "Food",
+          "duration_ms": 3600000,
+          "apply_count": 1,
+          "name": "Nourishment",
+          "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+          "description": "+10% Outgoing Healing\n+100 Healing Power\n+70 Concentration\n+10% Karma\n+5% All Experience Gained\n+20% Magic Find\n+20% Gold Find\n+10% WXP Gained"
+        }
+      },
+      {
+        "name": "Eggs Benedict with Mint-Parsley Sauce",
+        "description": "Gourmet Feast: Double-click to serve Eggs Benedicts with Mint-Parsley Sauce to anyone nearby. Feast stays active for 5 minutes.",
+        "type": "Consumable",
+        "level": 80,
+        "rarity": "Ascended",
+        "vendor_value": 165,
+        "game_types": ["Wvw", "Dungeon", "Pve"],
+        "flags": ["AccountBound", "AccountBindOnUse"],
+        "restrictions": [],
+        "id": 91758,
+        "chat_link": "[&AgFuZgEA]",
+        "icon": "https://render.guildwars2.com/file/247DFE7FA45A2DF9B24E5515C3BDB96D28ED213B/2191053.png",
+        "details": {
+          "type": "Food",
+          "duration_ms": 3600000,
+          "apply_count": 1,
+          "name": "Nourishment",
+          "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+          "description": "+10% Outgoing Healing\n+100 Concentration\n+70 Expertise\n+10% Karma\n+5% All Experience Gained\n+20% Magic Find\n+20% Gold Find\n+10% WXP Gained"
+        }
+      },
+      {
+        "name": "Mint and Veggie Flatbread",
+        "description": "Gourmet Feast: Double-click to serve Mint and Veggie Flatbreads to anyone nearby. Feast stays active for 5 minutes.",
+        "type": "Consumable",
+        "level": 80,
+        "rarity": "Ascended",
+        "vendor_value": 165,
+        "game_types": ["Wvw", "Dungeon", "Pve"],
+        "flags": ["AccountBound", "AccountBindOnUse"],
+        "restrictions": [],
+        "id": 91727,
+        "chat_link": "[&AgFPZgEA]",
+        "icon": "https://render.guildwars2.com/file/FCB44856734BE45744C8B10509CF710BBBE13C7B/2191027.png",
+        "details": {
+          "type": "Food",
+          "duration_ms": 3600000,
+          "apply_count": 1,
+          "name": "Nourishment",
+          "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+          "description": "+10% Outgoing Healing\n+100 Expertise\n+70 Condition Damage\n+10% Karma\n+5% All Experience Gained\n+20% Magic Find\n+20% Gold Find\n+10% WXP Gained"
+        }
+      },
+      {
+        "name": "Mint-Pear Cured Meat Flatbread",
+        "description": "Gourmet Feast: Double-click to serve Mint-Pear and Cured Meat Flatbreads to anyone nearby. Feast stays active for 5 minutes.",
+        "type": "Consumable",
+        "level": 80,
+        "rarity": "Ascended",
+        "vendor_value": 165,
+        "game_types": ["Wvw", "Dungeon", "Pve"],
+        "flags": ["AccountBound", "AccountBindOnUse"],
+        "restrictions": [],
+        "id": 91703,
+        "chat_link": "[&AgE3ZgEA]",
+        "icon": "https://render.guildwars2.com/file/F56EAF0DD0CFF41CE402282E37F20F4D22501358/2191048.png",
+        "details": {
+          "type": "Food",
+          "duration_ms": 3600000,
+          "apply_count": 1,
+          "name": "Nourishment",
+          "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+          "description": "+10% Outgoing Healing\n+100 Condition Damage\n+70 Expertise\n+10% Karma\n+5% All Experience Gained\n+20% Magic Find\n+20% Gold Find\n+10% WXP Gained"
+        }
+      }
+    ]
+  }
+}
