@@ -4,7 +4,7 @@ const fs = require('fs')
 const extendedAPI = require('../src/mappings/extendedAPI.json')
 
 // languages to query the api for
-const LANGUAGES = ['en', 'zh']
+const LANGUAGES = ['en']
 
 const MAX_ITEMS_PER_REQUEST = 200
 // path to save the files at

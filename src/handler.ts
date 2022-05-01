@@ -7,9 +7,7 @@ import TraitsById from './handlers/TraitsById'
 const router = Router()
 
 router
-  .get('/api/skills/ids/:ids', SkillsById)
   .get('/api/skills/names/:names', SkillsByName)
-  .get('/api/traits/ids/:ids', TraitsById)
   .get('/api/traits/names/:names', TraitsByName)
   //.get('/api/items/ids/:ids', ItemsById)
   //.get('/api/items/names/:names', ItemsByName)
